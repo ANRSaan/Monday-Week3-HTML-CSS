@@ -1,41 +1,73 @@
+
+
+header {
+    text-align: center;
+    background-color: rgba(13, 112, 169, 0.809);
+    border: 2px solid black;
+    height: 9vh;
+}
 body{
     background-color: rgb(252, 252, 225);
     margin: 0;
 }
-
-header {
-    background-color: rgba(13, 112, 169, 0.809);
-    height: 9vh;
-}
-
 h1 {
     font-size: 50pt;
+    border: 5px black;
     color: black;
     text-align: center;
     margin: 0
 }
-img {
-    height: 275px;
-    border: 5px solid black;
-    border-radius: 50px;
-}
-
-p {
-    font-size: 32pt;
-    color: darkgray;
-}
-
 div {
+    text-align: left;
     height: fit-content;
-    /*background-color: blueviolet;*/
+    /* background-color: blueviolet; */
     margin: 10px 30px;
 }
 
-button {
-    border-radius: 15px;
+h3 {
+    text-align: center;
+    font-weight: normal;
+}
+
+.subscribe {
+    text-align: right;
+}
+
+.subscribe > input {
+    margin-right: 120px;
 }
 
 div > p{
     font-size: 24pt;
 }
 
+img {
+    height: 275px;
+    border: 5px solid rgb(216, 218, 121);
+    border-style: dotted;
+    border-radius: 50px;
+}
+
+
+p {
+    font-size: 30pt;
+}
+
+.login-frame {
+    text-align: center;
+    background-color: aliceblue;
+    width: 210px;
+    height: 250px;
+    float: right;
+    box-shadow: 2px 2px;
+}
+
+
+.login-button {
+    margin: 0;
+}
+.user-pass {
+    text-align: center;
+    font-size: 10pt;
+
+}
